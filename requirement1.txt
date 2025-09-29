@@ -1,0 +1,168 @@
+The development team needs your help to modify C# code for three of our ongoing development projects.
+
+We have some general guidelines that you must follow when you perform your tasks. Please always use the following guidelines:
+
+When creating objects, use the default settings unless a different configuration is required to complete the task successfully.
+
+Only create, delete, or modify objects to achieve the stated requirements. Unnecessary changes to the environment can adversely affect your final score.
+
+If there are multiple approaches to achieving a goal, always choose the approach that requires the least amount of administrative effort.
+
+Thanks,
+
+Chief Technology Officer (CTO)
+
+***********************************
+Subject: Existing environment
+
+From: networkadmin@contoso.com
+To: User-55070891@lods.onmicrosoft.com
+Mark as unread
+We have installed the following development tools on your computer:
+
+Visual Studio Code with the C# extensions
+
+.NET SDK
+
+All development projects are stored on your computer at C:\Projects.
+
+Thanks,
+
+Network Administrator
+
+*********Task1*************
+Subject: Modifying the Banking app
+
+From: projman@contoso.com
+To: User-55070891@lods.onmicrosoft.com
+Mark as unread
+
+Mark as completed 
+Hello,
+
+We are developing a banking app for a customer.
+
+The project is named Banking.csproj and is located on your computer at C:\Projects\Task1.
+
+The Banking project has the following code files:
+
+BankAccount.cs
+
+Program.cs
+
+This is your task:
+
+In the BankAccount.cs file, you need to configure the following:
+
+Create a new public class named BankAccount in a namespace called Banking.
+
+Create two properties named AccountNumber and Balance. The AccountNumber property must store strings in the format of "123-456". The Balance property must be of type decimal.
+
+The following TODO comment has been added to the code to indicate where your changes should be made:
+
+TODO Task 1.1
+In the Program.cs file, you need to configure the following:
+
+Create an instance of the BankAccount class and populate the class with a sample account number and balance. For example, AccountNumber with the value "123-456" and Balance with the value $1000.23.
+
+Assign the instance to a variable named account.
+
+The following TODO comment has been added to the code to indicate where your changes should be made:
+
+TODO Task 1.2
+Note: Only modify the code referenced between the comments and leave all comment lines intact.
+
+The code must compile with the existing code in Program.cs to display an output as shown in the following example:
+
+Account 123-456 Balance: $1,000.23
+
+Thanks,
+
+Project Management Team
+
+Need help? Click on the following Microsoft Learn link: C# Classes
+
+Need help? Click on the following Microsoft Learn link: C# Properties
+
+Need help? Click on the following Microsoft Learn link: C# Variables
+
+
+***********************************************************
+************** Task 2 *************************************
+Hello,
+
+We are developing a student attendance app and need to modify the app code to address additional customer requirements.
+
+The project is named StudentAttendance.csproj and is located on your computer at C:\Projects\Task2.
+
+This is your task:
+
+You need to modify the Program.cs file to meet the following requirements:
+
+Ensure that the FirstName, MiddleName, and LastName properties can only be modified within the Student class.
+
+Since some students may not have a middle name, ensure that the MiddleName property of the Student class allows null values.
+
+In the Student class, create an additional constructor method that accepts only FirstName and LastName.
+
+In the Main function of the Program class, create an instance of the Student class that has sample FirstName of Ben, MiddleName of Sam, and LastName of Smith.
+
+The following TODO comments have been added to the code to indicate where your changes should be made:
+
+TODO Task 2.1
+TODO Task 2.2
+TODO Task 2.3
+TODO Task 2.4
+Note: Only modify the code referenced between the comments and leave all comment lines intact.
+
+Thanks,
+
+Project Management Team
+
+Need help? Click on the following Microsoft Learn link: C# Constructor Method
+
+Need help? Click on the following Microsoft Learn link: C# nullable value types
+
+*************************************************
+**********************Task3**********************
+Hello,
+
+We are developing a simple calculator app for a customer. The app will be used to add numbers with the results displayed on the console.
+
+The project is named Calculator.csproj and is located on your computer at C:\Projects\Task3.
+
+The Calculator project has two code files:
+
+Calculator.cs
+
+Program.cs
+
+This is your task:
+
+In the Calculator.cs file, you need to configure the following:
+
+To the Calculator class, add a static method named Addition that accepts two parameters.
+
+Ensure that the parameters accept values such as 1.5 and 3.6.
+
+The following TODO comment has been added to the code to indicate where your changes should be made:
+
+TODO Task 3.1
+Note: Only modify the code referenced between the comments and leave all comment lines intact.
+
+In the Program.cs file, you need to configure the following:
+
+Add code to call the Addition method and assign the result to a local variable.
+
+Use the Console.WriteLine method to display the content of your local variable.
+
+The following TODO comment has been added to the code to indicate where your changes should be made:
+
+TODO Task 3.2
+Thanks,
+
+Project Management Team
+
+Need help? Click on the following Microsoft Learn link: C# Method
+
+Need help? Click on the following Microsoft Learn link: C# Decimal
