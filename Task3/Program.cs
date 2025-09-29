@@ -1,1 +1,3 @@
 ﻿// TODO Task 3.2 Add code to call the Addition method...
+var result = Calculator.Addition(1.5,3.6);
+Console.WriteLine(result);
